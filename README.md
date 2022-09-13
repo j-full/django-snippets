@@ -8,7 +8,7 @@ An example of using a custom through table in Django for Many to Many relationsh
 ### Djano Admin override mixin [Link](https://github.com/j-full/django-snippets/blob/main/admin-override-mixins.py)
 Override Django admin use of select for Foreign Keys and M2M - and uses autocomplete for mega performance improvement
 
-### Wagtail Content Import/Transfer
+### Wagtail Content Import/Transfer [Link}(https://github.com/jerempy/django-snippets/tree/main/wagtail-import)
 Django management command for importing large amounts of content to a wagtail site via command line. Contains specifics for the site this was used for but could easily be swapped out or modified for use cases. Works by reading a json file with the content, and for any images it goes to the url and saves it locally to the new site, creates new link and inserts into the new content
 
 Included functionality was for importing article type pages, basic web pages, users, gated media requiring login for access to pdfs, youtube embedded videos and podcasts. Thousands of pieces of Content was exported from a legacy Drupal 7 website as json and imported here.
