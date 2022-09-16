@@ -15,3 +15,6 @@ Django management command for importing large amounts of content to a wagtail si
 
 Included functionality was for importing article type pages, basic web pages, users, gated media requiring login for access to pdfs, youtube embedded videos and podcasts. Thousands of pieces of Content was exported from a legacy Drupal 7 website as json and imported here.
 
+### [Account Token Generator](https://github.com/jerempy/django-snippets/blob/main/account-token-gen.py)
+For making tokens to send in emails for things like account activation. Doesn't require saving token to a database as it decodes and looks up the user_id in this case. Works the same as a password reset token
+
