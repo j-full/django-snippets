@@ -18,3 +18,6 @@ Included functionality was for importing article type pages, basic web pages, us
 ### [Account Token Generator](https://github.com/jerempy/django-snippets/blob/main/account-token-gen.py)
 For making tokens to send in emails for things like account activation. Doesn't require saving token to a database as it decodes and looks up the user_id in this case. Works the same as a password reset token
 
+### [Example sh file for deploys](https://github.com/jerempy/django-snippets/blob/main/deploy.sh)
+On django sites might need to collect static and restart gunicorn. Here is a basic shell script that does that and can be run as part of deployment process to automate
+
